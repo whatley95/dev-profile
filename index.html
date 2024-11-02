@@ -46,9 +46,9 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Whatley Julitar">Whatley Julitar</h1>
+          <h1 id="user-name" class="name"></h1>
 
-          <p class="title">Software Engineer</p>
+          <p id="title" class="title"></p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -56,7 +56,6 @@
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
-
       </div>
 
       <div class="sidebar-info_more">
@@ -73,8 +72,7 @@
 
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
-              <a href="mailto:whatley95@outlook.com" class="contact-link">whatley95@outlook.com</a>
+              <a href="#" id="email" class="contact-link"></a>
             </div>
 
           </li>
@@ -87,26 +85,10 @@
 
             <div class="contact-info">
               <p class="contact-title">LinkedIn</p>
-
-              <a href="https://whatley95.github.io/landing-page/linkedin.html" target="_blank"
-                class="contact-link">https://whatley95.github.io/landing-page/linkedin.html</a>
+              <a href="#" id="linkedin" target="_blank" class="contact-link"></a>
             </div>
 
           </li>
-
-          <!-- <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">June 23, 1982</time>
-            </div>
-
-          </li> -->
 
           <li class="contact-item">
 
@@ -116,8 +98,20 @@
 
             <div class="contact-info">
               <p class="contact-title">Location</p>
+              <address id="location"></address>
+            </div>
 
-              <address>Johor, Malaysia</address>
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="at-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Page Version</p>
+              <p class="contact-link">20241102v001</p>
             </div>
 
           </li>
@@ -126,36 +120,9 @@
 
         <div class="separator"></div>
 
-        <!-- <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul> -->
-
       </div>
 
     </aside>
-
-
-
-
-
     <!--
       - #main-content
     -->
@@ -178,25 +145,10 @@
             <button class="navbar-link" data-nav-link>Professional History</button>
           </li>
 
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li> -->
 
         </ul>
 
       </nav>
-
-
-
-
 
       <!--
         - #ABOUT
@@ -209,260 +161,22 @@
         </header>
 
         <section class="about-text">
-          <p>
-            Energetic and ambitious Software Engineer with over five years of experience in
-            software development and team management. I consistently approach challenges with a
-            mature and responsible mindset, excelling in collaborative environments to deliver
-            high-quality solutions on time. My expertise spans across various technologies,
-            and I thrive on driving technical excellence while contributing to team success.
-          </p>
-
-
+          <p id="about"></p>
         </section>
-
-
-        <!--
-          - service
-        -->
 
         <section class="service">
 
           <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  Building scalable and responsive web applications using technologies like
-                  Typescript, Angular, HTML, CSS, JavaScript, and .NET to deliver user-friendly solutions.
-                </p>
-              </div>
-
-            </li>
-
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps development</h4>
-
-                <p class="service-item-text">
-                  Creating cross-platform applications using Flutter, Java, and Xamarin,
-                  focused on delivering seamless and intuitive user experiences across both
-                  Android and iOS devices.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Desktop apps development</h4>
-
-                <p class="service-item-text">
-                  Creating high-performance desktop applications using C#, Java, and .NET,
-                  focused on performance and resource efficiency.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/systemintegration.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">System integration</h4>
-
-                <p class="service-item-text">
-                  Ensuring seamless communication and interoperability between diverse
-                  software applications and platforms, utilizing APIs, web services,
-                  and middleware solutions to enhance overall system efficiency.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
+          <ul class="service-list" id="services-list"></ul>
 
         </section>
 
-
-        <!--
-          - clients
-        -->
-
         <section class="clients">
-
-          <h3 class="h3 clients-title">Skills</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="https://spring.io/projects/spring-boot" target="_blank">
-                <img src="./assets/images/icons8-spring-boot-144.png" alt="Spring Boot">
-                <span class="client-title">Spring Boot</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.java.com/en/" target="_blank">
-                <img src="./assets/images/icons8-java-144.png" alt="Java">
-                <span class="client-title">Java</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://flutter.dev/" target="_blank">
-                <img src="./assets/images/icons8-flutter-144.png" alt="Flutter">
-                <span class="client-title">Flutter</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://https://v17.angular.io/start/" target="_blank">
-                <img src="./assets/images/icons8-angular-144.png" alt="Angular">
-                <span class="client-title">Angular</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://developer.android.com/studio" target="_blank">
-                <img src="./assets/images/icons8-android-studio-144.png" alt="Adroid Studio">
-                <span class="client-title">Android Studio</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://dart.dev/" target="_blank">
-                <figure>
-                  <img src="./assets/images/icons8-dart-144.png" alt="Dart">
-                  <span class="client-title">Dart</span>
-                </figure>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.typescriptlang.org/" target="_blank">
-                <figure>
-                  <img src="./assets/images/icons8-typescript-144.png" alt="Typescript">
-                  <span class="client-title">Typescript</span>
-                </figure>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.w3schools.com/html/" target="_blank">
-                <figure>
-                  <img src="./assets/images/icons8-html-144.png" alt="HTML">
-                  <span class="client-title">HTML</span>
-                </figure>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://code.visualstudio.com/" target="_blank">
-                <img src="./assets/images/icons8-visual-studio-code-2019-144.png" alt="Visual Studio Code">
-                <span class="client-title">Visual Studio Code</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://dotnet.microsoft.com/en-us/" target="_blank">
-                <img src="./assets/images/icons8-.net-framework-144.png" alt=".NET">
-                <span class="client-title">.NET</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://firebase.google.com/" target="_blank">
-                <img src="./assets/images/icons8-google-firebase-console-144.png" alt="Firebase">
-                <span class="client-title">Firebase</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://dotnet.microsoft.com/en-us/" target="_blank">
-                <img src="./assets/images/dotnet_icon.png" alt="C#">
-                <span class="client-title">C#</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.mysql.com/" target="_blank">
-                <img src="./assets/images/icons8-mysql-144.png" alt="MySql">
-                <span class="client-title">MySql</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
-                <img src="./assets/images/icons8-microsoft-sql-server-144.png" alt="MSSQL">
-                <span class="client-title">MSSQL</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://play.google.com/store/apps" target="_blank">
-                <img src="./assets/images/icons8-play-store-144.png" alt="Play Store">
-                <span class="client-title">Play Store</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://www.apple.com/app-store/" target="_blank">
-                <img src="./assets/images/icons8-app-store-144.png" alt="App Store">
-                <span class="client-title">App Store</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://visualstudio.microsoft.com/" target="_blank">
-                <img src="./assets/images/icons8-visual-studio-144.png" alt="Visual Studio">
-                <span class="client-title">Visual Studio</span>
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="https://dotnet.microsoft.com/en-us/" target="_blank">
-                <img src="./assets/images/icons8-xamarin-144.png" alt="Xamarin">
-                <span class="client-title">Xamarin</span>
-              </a>
-            </li>
-
-          </ul>
-
+          <h3 class="h3 clients-title">Tech Skills</h3>
+          <ul class="clients-list has-scrollbar" id="techSkills"></ul>
         </section>
 
       </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
 
       <article class="resume" data-page="professional history">
 
@@ -479,92 +193,7 @@
 
             <h3 class="h3">Experience</h3>
           </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <div class="timeline-header">
-                <!-- <h4 class="h4 timeline-item-title">Tiong Nam Logistics Holdings Berhad</h4> -->
-                <div class="company-info">
-                  <h4 class="h4 timeline-item-title">Tiong Nam Logistics Holdings Berhad</h4>
-                  <img src="./assets/images/tiong-nam-logistics--600.png" alt="Tiong Nam Logo" class="company-icon" onclick="window.open('https://www.tiongnam.com/', '_blank')">
-                </div>
-                <span class="timeline-date">Apr 2022 — Present</span>
-              </div>
-
-              <span  style="font-weight: bold;">Senior Software Engineer</span>
-
-              <p class="timeline-text">
-                <strong>1 . </strong>Enhanced and maintained a user-friendly platform for generating and managing quotations based on user and customer needs and feedback, utilizing a tech stack that includes Angular,Typescript,Java and Spring Boot.
-              </p>
-
-              <p class="timeline-text">
-                <strong>2 . </strong>Maintained and enhanced a comprehensive transportation application and reporting portal based on user and customer needs and feedback to optimize and streamline transportation processes, utilizing a tech stack that includes Dart, Flutter, TypeScript, Angular, Java, and Spring Boot.
-              </p>
-
-              <p class="timeline-text">
-                <strong>3 . </strong>Developed a property portal to facilitate efficient property management and tracking, ensuring streamlined operations and improved user experience.
-              </p>
-
-              <p class="timeline-text">
-                <strong>4 . </strong>Designed and developed robust APIs to support mobile and web applications, leveraging a tech stack that includes Java and Spring Boot for optimal performance and scalability.
-              </p>
-
-              <p class="timeline-text">
-                <strong>5 . </strong>Oversaw manual deployment procedures to ensure seamless application launches while continuously monitoring MySQL database performance and health to optimize efficiency.
-              </p>
-
-              <p class="timeline-text">
-                <strong>6 . </strong>Facilitated collaboration among team members by assigning and tracking tasks, ensuring adherence to project deadlines.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <div class="timeline-header">
-                <div class="company-info">
-                  <h4 class="h4 timeline-item-title">Blue Ocean Data Solution</h4>
-                  <img src="./assets/images/bodsjpg.jpg" alt="Blue Ocean Logo" class="company-icon" onclick="window.open('https://blueoceands.com/', '_blank')">
-                </div>
-                <span class="timeline-date">Feb 2018 - Mar 2022</span>
-              </div>
-
-              <span  style="font-weight: bold;">Senior Software Engineer</span>
-
-              <p class="timeline-text">
-                <strong>1 . </strong>Led and participated in the development of various desktop,web and mobile applications.
-              </p>
-
-              <p class="timeline-text">
-                <strong>2 . </strong>Developed and maintained an app that enables users to track transactions and plan activities effectively, utilizing a tech stack that includes Java, Xamarin, and .Net.
-              </p>
-
-              <p class="timeline-text">
-                <strong>3 . </strong>Developed and maintained a tablet app focused on real-time inspection and monitoring tasks using a tech stack that includes Java and Android Studio.
-              </p>
-
-              <p class="timeline-text">
-                <strong>4 . </strong>Designed and implemented a comprehensive inventory management system, enhancing reporting capabilities using a tech stack that include Java,Xamarin and .NET
-              </p>
-
-              <p class="timeline-text">
-                <strong>5 . </strong>Developed a visitor management application featuring integration with facial recognition technology for enhanced security, tracking, and reporting purposes, using a tech stack that includes Java, Xamarin, and .NET.
-              </p>
-
-              <p class="timeline-text">
-                <strong>6 . </strong>Developed and maintained an integrated app for tracking vehicles and conducting inspections efficiently, using a tech stack that includes Xamarin and .NET.
-              </p>
-
-              <p class="timeline-text">
-                <strong>7 . </strong>Managed and created databases using MSSQL and Azure MSSQL to support application functionality, ensuring data integrity and securityManaged and created databases using MSSQL and Azure MSSQL to support application functionality, ensuring data integrity and security
-              </p>
-
-            </li>
-
-          </ol>
-
+          <ol class="timeline-list" id="timeline-list-experience-data"></ol>
         </section>
 
         <section class="timeline">
@@ -577,112 +206,9 @@
             <h3 class="h3">Education</h3>
           </div>
 
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <div class="timeline-header">
-                <div class="company-info">
-                  <h4 class="h4 timeline-item-title">Universiti Malaysia Pahang</h4>
-                  <img src="./assets/images/universiti-malaysia-pahang-logo.png" alt="UMP Logo" class="company-icon" onclick="window.open('https://www.umpsa.edu.my/en', '_blank')">
-                </div>
-                <span class="timeline-date">2014 - 2018</span>
-              </div>
-
-              <span  style="font-weight: bold;">Bachelor of Computer Science and Software Engineering</span>
-
-              <p class="timeline-text">
-                With a focus on the principles of software engineering, computer science, and application development. This program equipped me with a robust understanding of programming languages, software development methodologies, system analysis, and design.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <div class="timeline-header">
-                <div class="company-info">
-                  <h4 class="h4 timeline-item-title">Labuan Matriculation College</h4>
-                  <img src="./assets/images/5698532.jpg" alt="KML Logo" class="company-icon" onclick="window.open('https://matrikulasi.moe.gov.my/system/index.cfm', '_blank')">
-                </div>
-                <span class="timeline-date">2013 - 2014</span>
-              </div>
-
-              <span  style="font-weight: bold;">Matriculation Programme</span>
-
-              <p class="timeline-text">
-                Pre-university program focusing on [Science/Mathematics/Tech], designed to prepare students for university studies in STEM or related fields.
-              </p>
-
-            </li>
-
-          </ol>
+          <ol class="timeline-list" id="timeline-list-education-data"></ol>
 
         </section>
-
-        <!-- add download resume -->
-
-        <!-- <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section> -->
-
         <section class="timeline">
 
           <div class="title-wrapper">
@@ -690,7 +216,8 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="contact-title"> <a href="https://2ly.link/20H22" target="_blank"> <img src="./assets/images/downloadresume1.png"</a></h3>
+            <h3 class="contact-title"> <a href="https://2ly.link/20H22" target="_blank"> <img
+                  src="./assets/images/downloadresume1.png" </a></h3>
             </a>
           </div>
 
@@ -698,493 +225,13 @@
         </section>
       </article>
 
-
-
-
-
       <!--
         - #PORTFOLIO
       -->
 
-      <!-- <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
- -->
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <!-- <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article> -->
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <!-- <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article> -->
-
     </div>
 
   </main>
-
-
-
-
-
 
   <!--
     - custom js link
@@ -1196,6 +243,9 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./assets/js/profile.js"></script>
+  <script src="./assets/js/tech.js"></script>
+  <script src="./assets/js/general-skill.js"></script>
 
 </body>
 

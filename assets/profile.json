@@ -1,0 +1,77 @@
+{
+  "name": "Whatley Julitar",
+  "title": "Software Engineer",
+  "email": "whatley95@outlook.com",
+  "linkedin": "https://whatley95.github.io/landing-page/linkedin.html",
+  "location": "Johor, Malaysia",
+  "about": "Energetic and ambitious Software Engineer with over five years of experience in software development and team management. I consistently approach challenges with a mature and responsible mindset, excelling in collaborative environments to deliver high-quality solutions on time. My expertise spans across various technologies, and I thrive on driving technical excellence while contributing to team success.",
+  "generalSkill": [
+    {
+      "type": "Web development",
+      "description": "Building scalable and responsive web applications using technologies like Typescript, Angular, HTML, CSS, JavaScript, and .NET to deliver user-friendly solutions."
+    },
+    {
+      "type": "Mobile apps development",
+      "description": "Creating cross-platform applications using Flutter, Java, and Xamarin, focused on delivering seamless and intuitive user experiences across both Android and iOS devices."
+    },
+    {
+      "type": "Desktop apps development",
+      "description": "Creating high-performance desktop applications using C#, Java, and .NET, focused on performance and resource efficiency."
+    },
+    {
+      "type": "System integration",
+      "description": "Ensuring seamless communication and interoperability between diverse software applications and platforms, utilizing APIs, web services, and middleware solutions to enhance overall system efficiency."
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tiong Nam Logistics Holdings Berhad",
+      "logo": "./assets/images/tiong-nam-logistics--600.png",
+      "link": "https://www.tiongnam.com/",
+      "duration": "Apr 2022 — Present",
+      "position": "Senior Software Engineer",
+      "responsibilities": [
+        "1 . Enhanced and maintained a user-friendly platform for generating and managing quotations based on user and customer needs and feedback, utilizing a tech stack that includes Angular,Typescript,Java and Spring Boot.",
+        "2 . Maintained and enhanced a comprehensive transportation application and reporting portal based on user and customer needs and feedback to optimize and streamline transportation processes, utilizing a tech stack that includes Dart, Flutter, TypeScript, Angular, Java, and Spring Boot.",
+        "3 . Developed a property portal to facilitate efficient property management and tracking, ensuring streamlined operations and improved user experience.",
+        "4 . Designed and developed robust APIs to support mobile and web applications, leveraging a tech stack that includes Java and Spring Boot for optimal performance and scalability.",
+        "5 . Oversaw manual deployment procedures to ensure seamless application launches while continuously monitoring MySQL database performance and health to optimize efficiency.",
+        "6 . Facilitated collaboration among team members by assigning and tracking tasks, ensuring adherence to project deadlines."
+      ]
+    },
+    {
+      "company": "Blue Ocean Data Solution",
+      "logo": "./assets/images/bodsjpg.jpg",
+      "link": "https://blueoceands.com/",
+      "duration": "Feb 2018 - Mar 2022",
+      "position": "Senior Software Engineer",
+      "responsibilities": [
+        "1 . Led and participated in the development of various desktop,web and mobile applications.",
+        "2 . Developed and maintained an app that enables users to track transactions and plan activities effectively, utilizing a tech stack that includes Java, Xamarin, and .Net.",
+        "3 . Developed and maintained a tablet app focused on real-time inspection and monitoring tasks using a tech stack that includes Java and Android Studio.",
+        "4 . Designed and implemented a comprehensive inventory management system, enhancing reporting capabilities using a tech stack that include Java,Xamarin and .NET",
+        "5 . Developed a visitor management application featuring integration with facial recognition technology for enhanced security, tracking, and reporting purposes, using a tech stack that includes Java, Xamarin, and .NET.",
+        "6 . Developed and maintained an integrated app for tracking vehicles and conducting inspections efficiently, using a tech stack that includes Xamarin and .NET.",
+        "7 . Managed and created databases using MSSQL and Azure MSSQL to support application functionality, ensuring data integrity and securityManaged and created databases using MSSQL and Azure MSSQL to support application functionality, ensuring data integrity and security."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "place": "Universiti Malaysia Pahang",
+      "logo": "./assets/images/universiti-malaysia-pahang-logo.png",
+      "link": "https://www.umpsa.edu.my/en",
+      "course": "Bachelor of Computer Science and Software Engineering",
+      "duration": "2014 - 2018",
+      "description": "With a focus on the principles of software engineering, computer science, and application development. This program equipped me with a robust understanding of programming languages, software development methodologies, system analysis, and design."
+    },
+    {
+      "place": "Labuan Matriculation College",
+      "logo": "./assets/images/5698532.jpg",
+      "link": "https://matrikulasi.moe.gov.my/system/index.cfm",
+      "course": "Matriculation Programme",
+      "duration": "2013 - 2014",
+      "description": "Pre-university program focusing on [Science/Mathematics/Tech], designed to prepare students for university studies in STEM or related fields."
+    }
+  ]
+}
