@@ -21,7 +21,7 @@ fetch('./assets/tech.json')
 
             // Create the <img> element
             const img = document.createElement('img');
-            img.src = item.imgSrc;
+            img.src = './assets/images/' + item.imgSrc;
             img.alt = item.altText;
 
             // Create the <span> element
