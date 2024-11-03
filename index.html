@@ -7,19 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WJ</title>
 
-  <!--
-    - favicon
-  -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -27,226 +16,151 @@
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
   <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
     <aside class="sidebar" data-sidebar>
-
       <div class="sidebar-info">
-
         <figure class="avatar-box">
           <img src="./assets/images/Edit_PS.png" alt="Whatley Julitar" width="80">
         </figure>
-
         <div class="info-content">
           <h1 id="user-name" class="name"></h1>
-
           <p id="title" class="title"></p>
         </div>
-
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
-
           <ion-icon name="chevron-down"></ion-icon>
         </button>
       </div>
-
       <div class="sidebar-info_more">
-
         <div class="separator"></div>
-
         <ul class="contacts-list">
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Email</p>
               <a href="#" id="email" class="contact-link"></a>
             </div>
-
           </li>
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="logo-linkedin"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">LinkedIn</p>
               <a href="#" id="linkedin" target="_blank" class="contact-link"></a>
             </div>
-
           </li>
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Location</p>
               <address id="location"></address>
             </div>
-
           </li>
-
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="at-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Page Version</p>
               <p class="contact-link">20241102v001</p>
             </div>
-
           </li>
-
         </ul>
-
         <div class="separator"></div>
-
       </div>
-
     </aside>
-    <!--
-      - #main-content
-    -->
 
     <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
       <nav class="navbar">
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link active" data-nav-link>About</button>
           </li>
-
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Professional History</button>
           </li>
-
-
         </ul>
-
       </nav>
 
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
+      <article class="about active" data-page="about">
         <header>
           <h2 class="h2 article-title">About me</h2>
         </header>
-
         <section class="about-text">
           <p id="about"></p>
         </section>
-
         <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">What I'm doing</h3>
           <ul class="service-list" id="services-list"></ul>
-
         </section>
-
         <section class="clients">
           <h3 class="h3 clients-title">Tech Skills</h3>
           <ul class="clients-list has-scrollbar" id="techSkills"></ul>
         </section>
-
       </article>
 
       <article class="resume" data-page="professional history">
-
         <header>
           <h2 class="h2 article-title">Professional History</h2>
         </header>
-
         <section class="timeline">
-
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
-
             <h3 class="h3">Experience</h3>
           </div>
           <ol class="timeline-list" id="timeline-list-experience-data"></ol>
         </section>
-
         <section class="timeline">
-
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
-
             <h3 class="h3">Education</h3>
           </div>
-
           <ol class="timeline-list" id="timeline-list-education-data"></ol>
-
         </section>
         <section class="timeline">
-
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
-
-            <h3 class="contact-title"> <a href="https://2ly.link/20H22" target="_blank"> <img
-                  src="./assets/images/downloadresume1.png" </a></h3>
-            </a>
+            <h3 class="contact-title">
+              <a href="https://2ly.link/20H22" target="_blank">
+                <img src="./assets/images/downloadresume1.png" alt="Download Resume">
+              </a>
+            </h3>
           </div>
-
-
         </section>
       </article>
+    </div>
 
-      <!--
-        - #PORTFOLIO
-      -->
-
+    <!-- Modal Container -->
+    <div class="modal-container" data-modal-container>
+      <div class="modal">
+        <button class="modal-close-btn" data-modal-close-btn>Close</button>
+        <img src="" alt="" data-modal-img>
+        <h2 data-modal-title></h2>
+        <p data-modal-text></p>
+      </div>
+      <div class="overlay" data-overlay></div>
     </div>
 
   </main>
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./assets/js/script.js"></script>
   <script src="./assets/js/profile.js"></script>
   <script src="./assets/js/tech.js"></script>
   <script src="./assets/js/general-skill.js"></script>
-
 </body>
 
 </html>
